@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+h1:first-letter {
+	color: #7172ac;
+	font-size: 150%;
+}
+
+h1 { 
+	background: transparent;
+	border-left: solid 8px #7172ac;
+	padding: auto 8px;
+}
+
+body {
+	margin-left: 20px;
+	color: #808080;
+	font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体',
+		'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN',
+		'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic',
+		sans-serif,
+	font-weight: normal;
+}
+
+p { 
+	font-size: 18px;
+}
+
+.btn-flat-border {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background: #ffffff;
+	color: #67c5ff;
+	border: solid 2px #67c5ff;
+	border-radius: 8px;
+	transition: .4s;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.btn-flat-border:hover {
+	background: #67c5ff;
+	color: white;
+}
+
+.select {
+	background: #ffffff;
+	font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体',
+		'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN',
+		'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic',
+		sans-serif;
+	height: 34px;
+	font-size: 18px;
+	width: 70px;
+	border-radius: 5px;
+}
+
+input[type='text'] {
+	box-sizing: border-box;
+	padding: 6px;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	height: 34px;
+	line-height: 18px;
+	font-size: 18px;
+	margin: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+table th,table td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+table tr:nth-child(odd) {
+  background-color: #eee
+}
+
+.container {
+	text-align: center;
+	width: 600px;
+}
+
+a {
+	margin-top: 10px;
+}
+
+a+a {
+	margin-left: 10px;
+}
+
+h3 {
+	margin: 40px auto 7px;
+}
+
+.display {
+	display: none;
+}
